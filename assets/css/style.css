@@ -1,0 +1,693 @@
+/**************************************
+
+Template Name: knockout | Login and Register Form Html Templates
+Description: Creative & Exclusive Login Registration Template
+Author: Flexwebsystem
+Version: 1.1
+
+======================================
+        Table Of Contents
+======================================
+1. Typography
+2. Default Style
+3. Screen One
+4. Screen Two
+*/
+
+/*=======================================================================
+1. Typography
+=========================================================================*/
+body, html {
+    height: 100%;
+}
+
+body {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7;
+    background-color: #1f1f1f;
+    font-family: "proxima-nova",sans-serif !important;
+    color: white;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "proxima-nova",sans-serif !important;
+}
+
+
+/*=======================================================================
+2. Default Style
+=========================================================================*/
+a {
+    text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+a:active,
+a:hover,
+a:focus {
+    outline: 0 none;
+}
+
+.btn:focus, .form-control:focus{
+    border-color: transparent;
+    box-shadow: unset;
+    outline: unset !important;
+}
+button:focus{
+    outline: unset;
+}
+a, p, .btn,label{
+    font-family: "proxima-nova",sans-serif !important;
+}
+/*=======================================================================
+3. Screen One
+=========================================================================*/
+#screen1{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+.login-block{
+    background: #252525 0 0 no-repeat padding-box;
+    box-shadow: 0 0 50px #00000080;
+    border-radius: 50px;
+    padding: 2rem 6rem;
+}
+
+#screen1 .brand-logo{
+    width: 66px;
+    margin: auto;
+}
+
+#screen1 .title h1{
+    text-align: left;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: 50px;
+}
+
+#screen1 .form-group label{
+    text-transform: uppercase;
+    font: normal normal medium 15px/18px Proxima Nova;
+    letter-spacing: 0.75px;
+}
+
+#screen1 .btn{
+    box-shadow: 0 0 10px #00000033;
+    border-radius: 10px;
+    text-transform: uppercase;
+    color: white;
+    padding: 0.7rem;
+    font: normal normal 800 15px/18px Proxima Nova;
+    letter-spacing: 0.75px;
+}
+.bg-red{
+    background: #E72729;
+}
+
+.bg-black{
+    background: black;
+}
+
+#screen1 .white-logo{
+    width: 150px;
+    margin: auto;
+}
+
+#screen1 .link-text{
+    font: normal normal normal 14px/17px Proxima Nova;
+    letter-spacing: 0;
+}
+
+
+@media only screen and (max-width: 600px) {
+    #screen1 .login-block {
+        padding: 2rem 3rem;
+        margin: 3rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    #screen1 .login-block {
+        margin: 1rem;
+    }
+    #screen1 .login-block .buttons{
+        flex-direction: column;
+    }
+    #screen1 .login-block .buttons .btn{
+        margin: 0 0 1rem 0 !important;
+    }
+    #screen1 .buttons{
+        margin-top: 2rem !important;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    #screen1 .login-block {
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 30px;
+    }
+    #screen1 .title h1{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-height: 737px) {
+    #screen1 .form-group {
+        margin-bottom: 0.5rem;
+    }
+    #screen1 .buttons {
+        margin-top: 1.5rem !important;
+    }
+    #screen1 .btn {
+        padding: 0.5rem;
+    }
+    #screen1 .link-block{
+        margin: 1rem 0 !important;
+    }
+    #screen1 .title h1{
+        font-size: 34px;
+    }
+}
+@media only screen and (max-height: 640px) {
+    #screen1 .title h1{
+        font-size: 28px;
+    }
+}
+@media only screen and (max-height: 628px) {
+    #screen1 .brand-logo img{
+        width: 50px;
+    }
+    #screen1 .form-group label{
+        font-size: 12px;
+    }
+    #screen1 .form-group  .form-control{
+        height: 2rem;
+    }
+    #screen1 .btn{
+        font-size: 12px;
+    }
+    #screen1 .buttons {
+        margin-top: 1rem !important;
+    }
+    #screen1 .login-block {
+        padding: 1rem 2rem;
+    }
+}
+
+@media only screen and (max-height: 524px) {
+    #screen1 .brand-logo img {
+        width: 40px;
+    }
+    #screen1 .title h1 {
+        font-size: 16px;
+    }
+    #screen1 .form-group .form-control {
+        height: 1.5rem;
+    }
+    #screen1 .btn {
+        padding: 0.4rem;
+    }
+    #screen1 .login-inputs h3 {
+        font-size: 16px;
+    }
+
+    #screen1 .login-block .title h1{
+        margin-bottom: 0.5rem ;
+    }
+    #screen1 .login-block .buttons .btn {
+        margin: 0 0 0.5rem 0 !important;
+    }
+    #screen1 .white-logo img {
+        width: 100px;
+    }
+}
+
+/*=======================================================================
+4. Screen Two
+=========================================================================*/
+#screen2{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#screen2 .brand-logo{
+    width: 50px;
+}
+#screen2 .sub-line h3{
+    font-size: 25px;
+}
+#screen2 .title h1{
+    font-size: 50px;
+}
+#screen2 label{
+    font:  15px/18px Proxima Nova;
+    letter-spacing: 0.75px;
+}
+#screen2 .start-btn, #screen2 .view-btn{
+    width: 190px;
+    font: normal normal 800 15px/18px Proxima Nova;
+    letter-spacing: 0.75px;
+}
+#screen2 .form-control{
+    font: normal normal normal 15px/18px Proxima Nova;
+    letter-spacing: 0.38px;
+    color: black;
+}
+#screen2 .view-btn{
+    background: black;
+
+}
+#screen2 hr{
+    border-top: 1px solid #343a40;
+    width: 35%;
+}
+
+.revisit-link{
+    width: fit-content;
+}
+.revisit-link p{
+    font: normal normal normal 15px/18px Proxima Nova;
+    letter-spacing: 0;
+}
+
+.link-box a{
+    color: #E72729;
+    font: normal normal 800 15px/18px Proxima Nova;
+    letter-spacing: 0.38px;
+}
+
+.white-logo img{
+    width: 150px;
+}
+
+@media only screen and (max-width: 768px) {
+    #screen2 .title h1 {
+        font-size: 40px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #screen2 .login-block{
+        padding: 1.5rem 3rem !important;
+    }
+}
+@media only screen and (max-width: 441px) {
+    #screen2 .sub-line h3 {
+        font-size: 14px !important;
+    }
+    #screen2 .title h1{
+        font-size: 22px !important;
+    }
+}
+@media only screen and (max-width: 375px) {
+    #screen2 .login-block{
+        padding: 1.5rem 2rem !important;
+    }
+    #screen2 .login-block {
+        border-radius: 30px;
+    }
+}
+@media only screen and (max-height: 733px) {
+    #screen2 .sub-line h3{
+        font-size: 20px;
+        margin-bottom: 10px !important;
+    }
+    #screen2{
+        font-size: 12px;
+    }
+    #screen2 hr{
+        margin: 5px auto;
+        width: 30%;
+    }
+    #screen2 .login-block{
+        padding: 1.5rem 4rem;
+    }
+    #screen2 .white-logo{
+        margin-top: 2rem !important;
+    }
+}
+@media only screen and (max-height: 569px) {
+    #screen2 .sub-line h3 {
+        font-size: 13px !important;
+    }
+    #screen2 .title h1 {
+        font-size: 16px !important;
+    }
+    #screen2 .form-group{
+        margin-bottom: 10px ;
+    }
+    #screen2 .white-logo img {
+        width: 100px;
+    }
+    #screen2 .white-logo{
+        margin-top: 1rem !important;
+    }
+    #screen2 {
+        font-size: 10px;
+    }
+}
+@media only screen and (max-height: 480px) {
+    #screen2 label{
+        font-size: 10px;
+    }
+    #screen2 .link-box p{
+        margin-bottom: 10px !important;
+    }
+}
+@media only screen and (max-height: 641px) {
+    #screen2 .login-block {
+        padding: 1rem 2rem !important;
+    }
+    #screen2 .brand-logo img {
+        width: 30px;
+    }
+    #screen2 .sub-line{
+        padding-top: 0.5rem !important;
+    }
+    #screen2 .sub-line h3 {
+        font-size: 12px !important;
+    }
+    #screen2 .title h1 {
+        font-size: 14px !important;
+    }
+    #screen2 .btn {
+        font-size: 10px;
+    }
+    #screen2 .start-btn{
+        margin-top: 0 !important;
+    }
+    #screen2 .white-logo img {
+        width: 80px;
+    }
+    #screen2 .form-control {
+        font-size: 10px;
+        height: 2rem;
+    }
+    #screen2 label{
+        margin-bottom: 0;
+    }
+}
+
+/*screen3*/
+.screen{
+    background: url("../images/bg.png");
+    background-size: cover;
+    background-position: center;
+}
+
+#screen3{
+    height: 100vh;
+}
+#screen3 .menu img{
+    width: 33.21px;
+    margin-left: 2.5rem;
+}
+#scree3 .menu h5{
+    font-size: 21px;
+}
+#screen3 .right-sidebox{
+    background: #252525 0 0 no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000080;
+    opacity: 1;
+    height: 100vh;
+}
+.bg-unset{
+    background: unset;
+}
+#screen3 .add-source .title{
+    font: normal normal medium 25px/30px Proxima Nova;
+    letter-spacing: 1.25px;
+    color: #FFFFFF;
+}
+#screen3 .right-title h1{
+    font: normal normal bold 50px/61px Proxima Nova;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+}
+.bottom-content h5{
+    font: normal normal bold 20px/24px Proxima Nova;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+#screen3 .white-whelen{
+    width: 150px;
+}
+#screen3 .right-sidebox{
+    padding: 6rem 3rem !important;
+}
+.right-title{
+    padding: 5rem 0;
+    height: 550px;
+    overflow-y: scroll;
+}
+.bottom-logo{
+    margin-top: 8rem;
+}
+#screen3 select{
+    font: normal normal normal 15px/18px Proxima Nova;
+    letter-spacing: 0.23px;
+    color: #000000 !important;
+}
+#screen3 .field-list label{
+    font: normal normal bold 12px/14px Proxima Nova;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+#screen3 .field-list input[type=text] {
+    border: 0;
+    outline: 0;
+    background: transparent;
+    border-bottom: 1px solid grey;
+    border-radius: unset;
+}
+#screen3 .form-control{
+    color: #ced4da;
+}
+#screen3 form p{
+    font: normal normal normal 12px/14px Proxima Nova;
+    letter-spacing: 0.6px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+.zone-title{
+    min-width: 305px;
+}
+.zone-title h3{
+    font: normal normal bold 30px Proxima Nova;
+    letter-spacing: 1.5px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 10px #252525;
+    margin-bottom: 0;
+}
+.zone-title p{
+    font: normal normal normal 15px/18px Proxima Nova;
+    letter-spacing: 0.75px;
+    color: #DDDDDD;
+    text-shadow: 0px 0px 10px #252525;
+}
+
+.style::-webkit-scrollbar-track
+{
+    border-radius: 35px;
+}
+
+.style::-webkit-scrollbar
+{
+    width: 5px;
+}
+
+.style::-webkit-scrollbar-thumb
+{
+    border-radius: 35px;
+    background-color: #D62929;
+}
+.zone-content{
+    background: #252525 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 15px #00000080;
+    border-radius: 20px;
+    height: 315px;
+    overflow-y: scroll;
+    margin: 5px 0;
+}
+.zone-details{
+    height: 125px;
+}
+.perform-btn{
+    background: #E72729 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 10px #00000080;
+    border-radius: 10px;
+    padding: 1rem 0;
+    width: 225px;
+    font: normal normal bold 15px/18px Proxima Nova;
+    letter-spacing: 0.75px;
+}
+@media only screen and (max-height: 901px) and (max-height: 1601px){
+    #screen3 .right-sidebox{
+        overflow-y: scroll;
+    }
+    #screen3 .zone-box{
+        margin-top: 0 !important;
+    }
+    #screen3 .zone-title h3{
+        font-size: 25px;
+    }
+    #screen3 .zone-content {
+        height: 230px;
+    }
+    .zone-details {
+        height: 100px;
+    }
+    .right-title {
+        padding: 2rem 0;
+        height: 400px;
+    }
+    .bottom-logo {
+        margin-top: 4rem;
+    }
+}
+@media only screen and (max-height: 1365px) and (max-height: 767px){
+    #screen3 .zone-title h3 {
+        font: normal normal bold 16px Proxima Nova;
+    }
+    #screen3 .zone-title p{
+        margin-bottom: 5px;
+        font: normal normal normal 10px/13px Proxima Nova;
+    }
+    #screen3 .zone-content {
+        height: 162px;
+    }
+    .search-icon{
+        position: fixed;
+        padding: 0.5rem;
+        right: -10px;
+        color: #707070;
+    }
+    .field-list .form-group {
+        margin-bottom: 0 !important;
+    }
+    .right-title h1{
+        font-size: 38px !important;
+    }
+    .zone-details h5{
+        font-size: 18px;
+    }
+    .zone-block img{
+        width: 70px;
+    }
+    #screen3 form p{
+        margin-bottom: 0;
+    }
+    #screen3 .right-sidebox {
+        padding: 2rem 3rem !important;
+    }
+    .right-title {
+        padding: 1rem 0;
+        height: 289px;
+    }
+    .bottom-logo {
+        margin-top: 2rem;
+    }
+    .perform-btn{
+        padding: 0.5rem 0;
+        font: normal normal bold 12px/18px Proxima Nova;
+        border-radius: 5px;
+    }
+
+}
+
+/*screen4*/
+.modal-content{
+    background: #252525 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 50px #00000080;
+    border-radius: 50px;
+    width: 775px;
+    padding: 5rem;
+}
+.close{
+    text-align: right;
+}
+.modal-title{
+    font: normal normal bold 50px/61px Proxima Nova;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+}
+.modal-dialog{
+    -webkit-transform: translate(0,-50%) !important;
+    transform: translate(0,-50%) !important;
+    top: 50%;
+    margin-left: 342px;
+}
+.modal-content label{
+    font: normal normal normal 15px/18px Proxima Nova;
+    letter-spacing: 0.75px;
+    color: #FFFFFF;
+}
+.modal-content form .form-control{
+    display: unset;
+    color: black;
+}
+.close:not(:disabled):not(.disabled):focus, .close:not(:disabled):not(.disabled):hover{
+    opacity: 1;
+}
+.close{
+    opacity: unset;
+    margin-bottom: 1rem;
+}
+.modal-content .btn{
+    padding: 1rem 2rem;
+    border-radius: 10px;
+}
+.modal-content form label{
+    text-transform: uppercase;
+}
+.modal-content .input-group-text{
+    background: white;
+    border: unset;
+}
+::placeholder{
+    color: black !important;
+}
+.required:after {
+    content:" *";
+    color: #e72729;
+}
+@media only screen and (max-height: 901px) and (max-height: 1601px){
+    .modal-dialog{
+        margin-left: 215px;
+    }
+}
+@media only screen and (max-height: 1365px) and (max-height: 767px){
+    .modal-content{
+        width: 555px;
+        padding: 2.5rem;
+    }
+    .modal-title{
+        font: normal normal bold 30px/61px Proxima Nova;
+        margin-bottom: 1rem !important;
+    }
+    .modal-content .btn {
+        padding: 0.5rem 1.5rem;
+        border-radius: 8px;
+    }
+    .close {
+        margin-bottom: 0rem;
+    }
+}
